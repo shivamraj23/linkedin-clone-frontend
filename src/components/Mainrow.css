@@ -1,0 +1,20 @@
+.mainrow-container {
+  background-color: rgb(244, 242, 238);
+  height: 200rem;
+  width: auto;
+  display: flex;
+  flex-direction: row;
+  padding: 1.5rem 3rem;
+  justify-content: space-between;
+}
+
+.leftpanel-container {
+  height: 42rem;
+  width: 14rem;
+}
+
+.middlepanel-container {
+  height: 100rem;
+  width: 36rem;
+}
+

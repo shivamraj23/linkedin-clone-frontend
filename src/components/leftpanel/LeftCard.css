@@ -1,0 +1,59 @@
+.card-container {
+  background-color: white;
+  border-radius: 8px;
+  width: 14rem;
+
+  position: relative;
+}
+
+.card-top {
+  background-color: rgb(123, 123, 210);
+  background-image: url('https://dccomicsnews.com/wp-content/uploads/2020/08/The-Batman-Banner-DC-COMICS-NEWS.jpg');
+  background-size: cover;
+  width: inherit;
+  height: 5rem;
+  z-index: 0;
+  border-radius: 8px 8px 0 0;
+  display: inline-block;
+}
+
+
+
+.card-bottom {
+  margin-top: 1rem;
+}
+.name {
+  text-align: center;
+  border-bottom: 1px solid gray;
+  padding: 6px 0;
+}
+.who-viewed {
+  border-bottom: 1px solid gray;
+  padding: 6px 0;
+}
+.who-viewed-profile {
+  display: flex;
+  justify-content: space-between;
+  padding: 2px 1rem;
+}
+.who-viewed-profile p {
+  font-size: 11px;
+  font-weight: 600;
+  color: gray;
+}
+
+.try-premium {
+  font-size: 11px;
+  padding: 6px 1rem;
+  border-bottom: 1px solid gray;
+  font-weight: 700;
+}
+
+.my-items {
+  padding: 6px 1rem;
+
+  font-weight: 600;
+}
+.my-items p {
+  font-size: 11px;
+}

@@ -1,0 +1,39 @@
+.newpost-container {
+  width: inherit;
+  background-color: white;
+  border-radius: 8px;
+}
+
+
+.createpost {
+  padding: 1rem;
+  display: flex;
+}
+
+.createpost input {
+  height: 3rem;
+  width: 30rem;
+  margin-left: 1rem;
+  border-radius: 2rem;
+  outline: none;
+  padding: 10px 12px;
+  border: 1px solid gray;
+  font-size: 13px;
+}
+
+.single-icons {
+  display: flex;
+  color: rgb(109, 109, 109);
+}
+
+.single-icons p {
+  font-size: 12px;
+  margin-top: 4px;
+  padding-left: 4px;
+}
+
+.post-icons {
+  display: flex;
+  justify-content: space-around;
+  padding: 1rem 0;
+}

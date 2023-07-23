@@ -1,0 +1,52 @@
+.navbar-container {
+  background-color: white;
+  height: 3rem;
+  padding-left: 1rem;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+}
+.nav-left {
+  display: flex;
+  height: 2rem;
+  width: 40rem;
+}
+
+.icon {
+  color: rgb(53, 114, 195);
+}
+
+.searchbox {
+  display: flex;
+  background-color: rgb(223, 238, 251);
+  margin-left: 1rem;
+  border-radius: 8px;
+}
+
+.searchbox input {
+  height: 2rem;
+  width: 20rem;
+  opacity: 1;
+  border: none;
+  background-color: transparent;
+  outline: none;
+  padding-left: 1rem;
+  font-size: 13px;
+}
+
+.menu-items {
+  display: flex;
+  flex-direction: column;
+}
+.menu-items p {
+  font-size: 10px;
+}
+
+.nav-right {
+  display: flex;
+  width: 25rem;
+  justify-content: space-around;
+  margin-right: 2rem;
+  color: gray;
+}

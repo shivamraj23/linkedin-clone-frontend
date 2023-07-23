@@ -1,0 +1,26 @@
+.user-details-container {
+  display: flex;
+  padding: 8px 0;
+  margin: 4px 0;
+  border-bottom: 1px solid rgb(208, 208, 208);
+}
+
+.user-pic {
+  background-color: rgb(12, 222, 222);
+  border-radius: 50%;
+  height: 3rem;
+  width: 3rem;
+}
+.user-details {
+  display: flex;
+  flex-direction: column;
+  margin-left: 0.5rem;
+  padding: 2px 0;
+}
+
+.user-details h4 {
+  font-size: 12px;
+}
+.user-details p {
+  font-size: 10px;
+}

@@ -1,0 +1,16 @@
+.post {
+  width: inherit;
+  background-color: white;
+  border-radius: 8px;
+  margin-top: 1rem;
+  padding: 4px 1rem;
+}
+
+.content {
+  padding: 1rem 8px;
+}
+.content p {
+  font-size: 13px;
+  font-weight: 400;
+  
+}

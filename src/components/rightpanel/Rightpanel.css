@@ -1,0 +1,23 @@
+.rightpanel-container {
+    height: fit-content;
+    width: 18rem;
+    border-radius: 0.5rem;
+    padding: 1rem 0.5rem;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background-color: white;
+    font-weight: 600;
+  }
+  
+  .right-news {
+    margin: 4px;
+    color: rgb(49, 49, 49);
+  }
+  
+  .news-list {
+    margin-top: 4px;
+    padding: 4px 1rem;
+  }
+  .news-list p{
+    margin: 4px 0;
+  }
+  
